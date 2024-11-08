@@ -10,7 +10,6 @@ def multiply(x, y):
 def divide(x, y):
     return x / y if y != 0 else "Error: Division by zero is not allowed."
 
-=
 print("Welcome to the Simple Calculator!")
 print("Choose an operation:")
 print("1. Add")
@@ -21,7 +20,6 @@ print("4. Divide")
 choice = input("Enter choice (1, 2, 3 or 4): ")
 
 if choice in ['1', '2', '3', '4']:
-
 
 choice = input("Enter choice (1, 2, 3 or 4): ")
 
